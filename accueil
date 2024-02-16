@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Philoscope - Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon48x48-min.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../images/logo100x100-min.webp" alt="Logo Philoscope" loading="lazy"> Philo'scope
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programmes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Programme 1</a>
+                            <a class="dropdown-item" href="#">Programme 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/a-propos.html">A propos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="titre">
+            <span class="philo">Philo</span><span class="apostrophe">'</span><span class="scope">scope</span>
+        </div>
+
+    </header>
+    
+    <section class="main-content container">     
+        <div class="row">
+
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animate__animated animate__zoomIn">
+                    <img src="images/10782683_19197876.jpg" class="card-img-top" alt="Illustration" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>1.</span> Découvrir</h5>
+                        <p class="card-text">Description courte de la Card 1.</p>
+                        <a href="#" class="btn">
+                            Jeter un œil
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="margin-top: -2px">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animate__animated animate__zoomIn">
+                    <img src="images/10782683_19197876.jpg" class="card-img-top" alt="Illustration" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Apprendre</h5>
+                        <p class="card-text">Description courte de la Card 2.</p>
+                        <a href="#" class="btn">
+                            Jeter un œil
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="margin-top: -2px">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animate__animated animate__zoomIn">
+                    <img src="images/10782683_19197876.jpg" class="card-img-top" alt="Illustration" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">3. S'exercer</h5>
+                        <p class="card-text">Description courte de la Card 3.</p>
+                        <a href="#" class="btn">
+                            Jeter un œil
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="margin-top: -2px">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animate__animated animate__zoomIn">
+                    <img src="images/10782683_19197876.jpg" class="card-img-top" alt="Illustration" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">4. Réviser</h5>
+                        <p class="card-text">Description courte de la Card 4.</p>
+                        <a href="#" class="btn">
+                            Jeter un œil
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="margin-top: -2px">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card animate__animated animate__zoomIn">
+                    <img src="images/10782683_19197876.jpg" class="card-img-top" alt="Illustration" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">5. Produire</h5>
+                        <p class="card-text">Description courte de la Card 5.</p>
+                        <a href="#" class="btn">
+                            Jeter un œil
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="margin-top: -2px">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+ 
+    <section class="rose">
+        <a href="#" class="btn">Séries technologiques
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: -1px; margin-left: 5px; color: #f69d33;" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
+                <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
+                <path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+              </svg>
+        </a>
+    </section>
+    
+    <div class="QR-code">
+        <img src="images/QR-code.png" alt="QR-code" title="QR-code Philo'scope" loading="lazy">
+        <p>(sur smartphone)</p>
+    </div>
+    
+    <footer class="text-center">
+        <p>&copy; Philoscope 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js" defer></script>
+
+</body>
+</html>
