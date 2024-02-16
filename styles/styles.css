@@ -1,0 +1,377 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+  --ps-blanc: #fafafa;
+  --ps-blanc2: #f8f8f8;
+  --ps-rose: #ff6e81;
+  --ps-rose2: #fb5f73;
+  --ps-orange: #f69d33;
+  --ps-mauve: #cc9ad0;
+  --ps-noir: #1c1c1c;
+  --ps-noir2: #333;
+  --ps-bleu: #007bff;
+  --ps-bleu2: #87CEEB;
+  --ps-vert: #9edd5f;
+  --ps-gris: #919191;
+  --ps-gris2: #adb5bd;
+}
+
+::selection {
+    background-color: var(--ps-mauve);
+    color: white;
+}
+
+a {
+  text-decoration: none;;
+}
+
+a:hover {
+  text-decoration: none;;
+}
+
+.philoscope {
+  color: var(--ps-orange);
+  font-family: Raleway, Arial !important;
+}
+
+.philo {
+  color: var(--ps-rose);
+}
+
+.apostrophe {
+  color: var(--ps-orange);
+}
+
+.scope {
+  color: var(--ps-mauve);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family:'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.ps {
+  text-decoration: underline dotted var(--ps-orange);
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+
+header {
+  background-image: url('images/wave.svg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1000;
+  margin-bottom: 5rem;
+}
+
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+  padding: 0.5rem 1.2rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  background-color: var(--ps-blanc2);
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1c1c1c;
+}
+
+.logo {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.titre {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 12rem 0rem 2rem 0rem;
+}
+
+.sous-titre {
+  font-size: 0.8em !important;
+  font-family: 'Raleway', sans-serif;
+  color: var(--ps-orange);
+}
+
+section.rose {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background-color: var(--ps-rose);
+  justify-content: center;
+  align-items: center;
+}
+
+section.orange {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background-color: var(--ps-orange);
+  justify-content: center;
+  align-items: center;
+}
+
+section.blanc {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background-color: var(--ps-blanc);
+  justify-content: center;
+  align-items: center;
+}
+
+section.mauve {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background-color: var(--ps-mauve);
+  justify-content: center;
+  align-items: center;
+}
+
+section.titre {
+  max-height: 86px;
+}
+
+section.titre h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+section.rose.titre h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+section.orange.titre h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+section.mauve.titre h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  padding: 2rem 2rem;
+}
+
+section.blanc .btn, section.rose .btn, section.orange .btn, section.mauve .btn {
+  background-color: white;
+  color: var(--ps-noir);
+  border: 1px solid #c9c9c9;
+  padding: .375rem 7rem;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+section.blanc .btn:hover, section.rose .btn:hover, section.orange .btn:hover, section.mauve .btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.blanc .btn.focus, section.rose .btn.focus, section.orange .btn.focus, section.mauve .btn.focus, section.blanc .btn:focus, section.rose .btn:focus, section.orange .btn:focus, section.mauve .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #f2e9f3;
+}
+
+.card {
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .btn {
+  background-color: var(--ps-mauve);
+  color: white;
+}
+
+.card .btn:hover {
+  background-color: var(--ps-orange) !important;
+}
+
+.card .btn.focus, .card .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #f2e9f3;
+}
+
+.mb-4, .my-4 {
+  margin-bottom: 3rem!important;
+}
+
+.QR-code {
+  display: flex;
+  margin: 2rem 0rem;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QR-code p {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: var(--ps-mauve);
+}
+
+.QR-code img {
+  width: 160px;
+}
+
+footer {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  background-color: var(--ps-rose);
+  color: var(--ps-blanc);
+  padding: 2rem;
+}
+
+footer a {
+  font-size: 9pt;
+  font-weight: 700;
+  text-decoration: none !important;
+  color: white !important;
+  letter-spacing: 0.3px;
+}
+
+footer p {
+  padding: 0 !important;
+  margin: 0 auto;
+  font-size: 9pt;
+  font-weight: 700;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--ps-mauve);
+}
+
+.tooltip.show {
+  opacity: 1 !important;
+} 
+
+.tool {
+  border-bottom-style: dotted;
+  border-color: #cc9ad0b0;
+}
+
+@media only screen and (max-width: 780px) {
+    
+  body {
+    font-size: 0.8rem !important;
+  }
+
+  .QR-code {
+    display: none;
+  }
+    
+  .QR-code img {
+    display: none;
+  }
+
+  section.blanc .btn, section.rose .btn, section.orange .btn, section.mauve .btn {
+    background-color: white;
+    color: var(--ps-noir);
+    border: 1px solid #c9c9c9;
+    padding: .375rem 4rem;
+    transition: box-shadow 0.25s ease-in-out;
+  }
+    
+  section.blanc .btn:hover, section.rose .btn:hover, section.orange .btn:hover, section.mauve .btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+    
+  section.blanc .btn.focus, section.rose .btn.focus, section.orange .btn.focus, section.mauve .btn.focus, section.blanc .btn:focus, section.rose .btn:focus, section.orange .btn:focus, section.mauve .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #f2e9f3;
+  }
+
+}
+
+.arg-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sentence-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sentence {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.sentence:hover {
+  background-color: #e0e0e0;
+}
+
+.drag-over-top {
+  border-top: 2px dashed #007bff;
+}
+
+.drag-over-bottom {
+  border-bottom: 2px dashed #007bff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
