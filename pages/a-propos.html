@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Philoscope - A propos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon48x48-min.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../images/logo100x100-min.webp" alt="Logo Philoscope" loading="lazy"> Philo'scope
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programmes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Programme 1</a>
+                            <a class="dropdown-item" href="#">Programme 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/a-propos.html">A propos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="titre">
+            <span class="philo">Philo</span><span class="apostrophe">'</span><span class="scope">scope</span>
+        </div>
+
+    </header>
+
+    <section class="rose titre">
+        <h1>Argumenter</h1>
+    </section>
+
+    <br>
+
+    <section class="main-content container">
+        <div class="arg-container">
+            <h2>Reorder the Sentences</h2>
+            <div id="sentenceContainer" class="sentence-container">
+              <div class="sentence" draggable="true">Sentence 1</div>
+              <div class="sentence" draggable="true">Sentence 2</div>
+              <div class="sentence" draggable="true">Sentence 3</div>
+              <div class="sentence" draggable="true">Sentence 4</div>
+            </div>
+            <button id="checkBtn">Check Order</button>
+            <p id="resultText"></p>
+          </div>
+    </section>   
+       
+    <section class="orange titre">
+        <h1>Crédits</h1>
+    </section>
+
+    <br>
+
+    <section class="main-content container">
+        <p>
+            Code <span class="tool" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip" data-bs-title="Ceci est un très long texte de tooltip pour voir ce que cela donne dans le cas d'une longue définition à renseigner sur le site">source</span>, fonctionnalités et contenu du site : Julien Borgeon
+        </p>
+        <p>Illustrations des cards de la page d'accueil :
+            <a href="https://fr.freepik.com/vecteurs-libre/cv-employes-cv-candidats-travailleurs-entreprise-etudiants-id-isolent-element-design-plat-candidatures-avatars-informations-personnelles_10780207.htm#page=3&position=27&from_view=author&uuid=abe3500a-0e09-4afc-8aef-465cd9e17347">
+                Image de vectorjuice
+            </a> sur Freepik
+        </p>
+    </section>
+
+    <br>
+
+    <section class="rose titre">
+        <h1>Contact</h1>
+    </section>
+
+    <div class="QR-code">
+        <img src="../images/QR-code.png" alt="QR-code" title="QR-code Philo'scope" loading="lazy">
+        <p>(sur smartphone)</p>
+    </div>
+    
+    <footer class="text-center">
+        <p>&copy; Philoscope 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js" defer></script>
+    <script src="../arguments.js" defer></script>
+
+</body>
+</html>
